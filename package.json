@@ -13,7 +13,7 @@
     },
     "scripts": {
         "start": "node src/index.js",
-        "nuild": "",
+        "build": "",
         "dev": "nodemon src/index.js"
     }
 }
