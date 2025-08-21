@@ -21,10 +21,10 @@ app.use(sesion);
 app.use("/api/usuarios", rutasUsuario);
 app.use("/api/clientes", router);
 
-app.use(express.static(path.join(__dirname, "../front/build")));
+app.use(express.static(path.join(__dirname, "./build")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../front/build", "index.html"));
+  res.sendFile(path.join(__dirname, "./build", "index.html"));
 }); 
 
 (async () => {
