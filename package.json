@@ -1,4 +1,7 @@
 {
+    "name": "mi-app",
+    "version": "1.0.0",
+    "main": "index.js",
     "type": "module",
     "dependencies": {
         "bcrypt": "^5.1.1",
@@ -13,7 +16,6 @@
     },
     "scripts": {
         "start": "node index.js",
-        "build": "",
         "dev": "nodemon index.js"
     }
 }
